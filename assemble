@@ -3,7 +3,7 @@
 # places them into appropriate directories inside the image.
 
 echo "Custom assemble script invoked"
-
+cat /usr/local/s2i/assemble
 # Execute the default S2I script
 /usr/local/s2i/assemble
 
